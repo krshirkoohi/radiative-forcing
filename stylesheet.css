@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Source Sans Pro Light';
+  src: url(SourceSansPro-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Reg';
+  src: url(SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Source Sans Pro SemiBold';
+  src: url(SourceSansPro-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Bold';
+  src: url(SourceSansPro-Bold.ttf);
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Source Sans Pro Reg';
+        
+}
+
+#my_checklist {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#my_checklist label:nth-child(1) {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+#my_checklist label:nth-child(13) {
+    background: #3FA0A0;
+    
+}
+
+#my_checklist label:nth-child(14) {
+    background: #AA9B9E;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+
+}
+
+
+#my_checklist .my_box_label {
+    background:#bc99e0;   
+    padding:0.5rem 0.75rem;
+    
+    font-family:'Source Sans Pro Reg';
+    font-size:12px;
+}
+
+#my_checklist label:nth-child(4) .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+#my_checklist label:nth-child(4):hover .tooltiptext {
+    visibility: visible;
+  }
+
+h1 {
+    font-family: 'Source Sans Pro Bold';
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.agents {
+    font-family: 'Source Sans Pro SemiBold';
+}
+
+.definitions {
+    font-family: 'Source Sans Pro SemiBold';
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.albedo {
+    font-family: 'Source Sans Pro Reg'; 
+}
+
+.natural {
+    display: inline-block;
+    color: black;
+    background-color: #49B6B6;
+    border-radius: 10%;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+.human {
+    display: inline-block;
+    color: black;
+    background-color: #bc99e0;
+    border-radius: 10%;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
